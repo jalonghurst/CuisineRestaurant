@@ -37,7 +37,7 @@ section {
  width: 100%; 
 }
 
- li, i {
+ li, .nav-i {
   margin-right: 20px;
 }
 
@@ -134,11 +134,13 @@ button {
   flex-wrap: no-wrap;
   flex-basis: 100%;
   justify-content: center;
+  
+  
 }
 
 #speciality-items ul li {
 padding-bottom: 5px;
-border-bottom: transparent solid 3px; 
+
 }
 
 #speciality-items ul li:hover {
@@ -148,9 +150,10 @@ border-bottom: transparent solid 3px;
 
 .gallery {
   width: 100%;
-  height: 700px;
+  min-height: 700px;
   display: flex;
   flex-direction: row;
+  justify-content: center;
   flex-wrap: wrap;
   padding-left: 10%;
   padding-right: 10%;
@@ -159,8 +162,9 @@ border-bottom: transparent solid 3px;
 }
 
 .gallery-image {
-  height: 45%;
-  width: 21%;
+  flex-wrap: wrap;
+  height: 250px;
+  width: 250px;
   margin: 20px;
 }
 
@@ -175,6 +179,31 @@ border-bottom: transparent solid 3px;
   margin-top: 50px;
 }
 
+.fourth-section {
+  width: 100%;
+  height:600px;
+  background: rgb(240,239,243);
+  background: linear-gradient(0deg, rgba(240,239,243,1) 82%, rgba(213,208,216,0.593952483801296) 100%);
+}
+
+.call{
+ margin: 0 auto;
+ color: orange;
+ font-size: 2rem;
+}
+
+video {
+  margin: auto;
+}
+#five-star {
+ margin: 0 auto;
+}
+
+.fa-star {
+  
+  color: rgb(223, 193, 23);
+  font-size: 1.5rem;
+}
 
 .left-text {
   margin-left: 15%;
