@@ -28,7 +28,7 @@ section {
   list-style: none;
   display: flex;
   flex-wrap: no-wrap;
-  flex-basis: 100%;
+  width: 100%;
   justify-content: flex-end; 
 }
 
@@ -65,8 +65,7 @@ h1 {
   /* background-image: url("https://c.pxhere.com/photos/7a/9c/dish_restaurant_dining_food_dinner_meal_plate_plate_of_food-1067074.jpg!d"); */
   background-repeat: no-repeat;
   background-size: cover;
-  height: 713px;
-  padding-right: 20px;
+  min-height: 713px;
 }
 
 /* SEARCH BAR/BUTTON */
@@ -122,8 +121,7 @@ button {
   background-image: url('../food6.jpg');
   background-repeat: no-repeat;
   background-size: cover; 
-  height: 713px;
-  padding-right: 20px;
+  min-height: 713px;
 }
 
 .about-us {
@@ -140,7 +138,7 @@ button {
   display: flex;
   flex-direction: row;
   flex-wrap: no-wrap;
-  flex-basis: 100%;
+  width: 100%;
   justify-content: center;
   
   
@@ -247,7 +245,7 @@ video {
 
 
 .right-text {
-  padding-right: 10%;
+  justify-content: flex-start;
   display: flex;
   align-self: flex-end;
   max-width: 50%;
@@ -366,12 +364,33 @@ video {
   list-style: none;
 }
 
+@media (max-width: 670px) {
+
+  * {
+    justify-content: center;
+  }
+  h1 {
+      
+      font-size: 2.5rem;
+       width: fit-content;
+  }
+  .right-text {
+    max-width: 70%;
+  }
+
+};
 @media (max-width: 940px) {
   h1 {
-      font-size: 3rem;
       
+      font-size: 3rem;
+       width: fit-content;
+  }
+  .right-text {
+    max-width: 70%;
   }
   .section-text {
     max-width: 90%;
   }
 };
+
+
