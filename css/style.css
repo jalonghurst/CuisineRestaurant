@@ -38,7 +38,7 @@ section {
 }
 
  li, .nav-i {
-  margin-right: 20px;
+  margin-right: 2%;
 }
 
 h1 {
@@ -71,13 +71,13 @@ h1 {
 /* SEARCH BAR/BUTTON */
 
 .button-field {
-  border:#c2bcb2 solid 1px;
+  border:#c0acf2 solid 2px;
   box-shadow: 10 0 0 0px;
   color: white;
   
   text-align: center;
   text-decoration: none;
-  border-radius: 3px;
+  border-radius: 5px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -221,15 +221,16 @@ padding-bottom: 5px;
 }
 
 .txt {
-  width: 50%;
-  
+  width: 60%;
+  text-align: center;
+  padding-bottom: 5%;
+  margin: 2%;
 }
 
 video {
   margin: auto;
   max-width: 100%;
 }
-
 
 .left-text {
   margin-left: 15%;
@@ -239,10 +240,10 @@ video {
 }
 .centered-text {
   display: flex; 
+  text-align: center;
   align-self: center;
   max-width: 80%;
 }
-
 
 .right-text {
   justify-content: flex-start;
@@ -250,9 +251,6 @@ video {
   align-self: flex-end;
   max-width: 50%;
 }
-
-
-
 
 #testimonials {
 	color: #333;
@@ -359,15 +357,37 @@ video {
 }
 
 .list-inline {
+  padding: 0;
   display: flex;
   justify-content: center;
   list-style: none;
 }
 
+@media (max-width: 400px) {
+
+  .second-section p h2  {
+    display: flex; 
+    align-items: left;
+    max-width: 80%;
+  }
+  .gallery {
+    width: 100%;
+  }
+ 
+  }
+
 @media (max-width: 670px) {
 
   * {
     justify-content: center;
+  }
+  
+  .top-section, .second-section {
+    min-height: auto;
+  }
+
+ .centered-text {
+    text-align: center;
   }
   h1 {
       
@@ -379,10 +399,10 @@ video {
   }
 
 };
-@media (max-width: 940px) {
+@media (max-width: 1000px) {
   h1 {
       
-      font-size: 3rem;
+      font-size: 2.9rem;
        width: fit-content;
   }
   .right-text {
@@ -391,6 +411,21 @@ video {
   .section-text {
     max-width: 90%;
   }
+ 
 };
 
+@media (min-width: 1001px) {
+
+  h1 {
+    font-size: 2rem;
+  }
+  .left-text h1 {
+    max-width: 20%;
+    margin-left: 10%;
+  }
+
+  .right-text {
+    margin-right: 10%;
+  }
+}
 
