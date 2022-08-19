@@ -63,7 +63,7 @@ p, span, li {
   width:100%;
   justify-content: space-between;
   align-items: flex-end;
-  background-image: url('../foodjpg2.jpg');
+  background-image: url('../assets/foodjpg2.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 713px;
@@ -124,7 +124,7 @@ button {
   width: 100%;
   flex-grow: 1;
   align-items: flex-end;
-  background-image: url('../food6.jpg');
+  background-image: url('../assets/food6.jpg');
   background-repeat: no-repeat;
   background-size: cover; 
   min-height: 713px;
@@ -179,22 +179,51 @@ padding-bottom: 5px;
 }
 
 .g-img1 { 
-  background: url(../article1.jpg);
+  background: url(../assets/article1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .g-img2 { 
-  background: url(../Foodjpg1.jpg);
+  background: url(../assets/img10.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 
 .g-img3 { 
-  background: url(../Foodjpg7.jpg);
+  background: url(../assets/Foodjpg7.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
+.g-img4 { 
+  background: url(../assets/img11.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.g-img5 { 
+  background: url(../assets/food5.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.g-img6 { 
+  background: url(../assets/img8.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}.g-img7 { 
+  background: url(../assets/img2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.g-img8 { 
+  background: url(../assets/img9.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
 
 .order-online {
   margin-top: 50px;
