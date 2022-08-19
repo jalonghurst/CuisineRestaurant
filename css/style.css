@@ -46,6 +46,9 @@ h1 {
   line-height: 140%;
   margin-top: 0;
 }
+p, span, li {
+  font-size: 1.2rem;
+}
 
 .sub-header {
   color: orange;
@@ -78,30 +81,32 @@ h1 {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
-  height: 5%;
+  height: 6%;
   max-width: 50%;
   margin-bottom: 20%;
 }
 
 .search-icon {
   align-self: center;
+ justify-content: center;
   height: 100%;
-  padding: 2.5%;
+  padding: 5%;
   background-color: #c0acf2;
+
 }
 
 input {
   border:none;
   height: 100%;
   width: 70%;
-  padding: 0 2%;
+  padding: 0 4%;
 }
 
 button {
   background-color: #c0acf2; /* Green */
   border: none;
   color: white;
-  padding:0px 2%;
+  padding:0px 4%;
   height: 100%;
   width: 30%;
   align-items: center;
@@ -191,8 +196,8 @@ padding-bottom: 5px;
 }
 
 .fourth-section {
-  padding-top:10%;
-  padding-bottom:10%;
+  padding-top:8%;
+  padding-bottom:8%;
   width: 100%;
   height:auto;
   background: rgb(240,239,243);
@@ -217,13 +222,21 @@ padding-bottom: 5px;
 .txt {
   width: 60%;
   text-align: center;
-  padding-bottom: 5%;
-  margin: 2%;
+  padding: 5%;
+
+}
+.txt-span {
+  flex: 1;
+  justify-items: center;
+}
+.bold {
+  font-weight:bold;
 }
 
 video {
   margin: auto;
-  width: 100%;
+  min-width: 70%;
+  max-width: 100%;
 }
 
 .left-text {
@@ -359,6 +372,10 @@ video {
 
 @media (max-width: 400px) {
 
+    p, span, li {
+      font-size: 1rem;
+    }
+    
   .second-section p h2  {
     display: flex; 
     align-items: left;
@@ -367,10 +384,14 @@ video {
   .gallery {
     width: 100%;
   }
- 
-  }
+  .button-field {
+    max-width: 60%;  }
 
-@media (max-width: 670px) {
+    
+  }
+ 
+
+@media (max-width: 800px) {
 
   * {
     justify-content: center;
@@ -379,7 +400,9 @@ video {
   .top-section, .second-section {
     min-height: auto;
   }
- 
+  .search-icon {
+    padding: 2%;
+  }
  .centered-text {
     text-align: center;
   }
@@ -392,8 +415,11 @@ video {
     max-width: 70%;
     margin-right: 2%;
   }
+ 
 
 };
+
+
 /* @media (min-width: 1000px) {
   h1 {
       
