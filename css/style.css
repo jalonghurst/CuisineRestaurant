@@ -23,7 +23,6 @@ section {
 }
 
 /* NAVIGATION */
-
 #main-nav ul {
   list-style: none;
   display: flex;
@@ -41,6 +40,7 @@ section {
   margin-right: 2%;
 }
 
+
 h1 {
   font-size: 4rem;
   line-height: 140%;
@@ -55,21 +55,18 @@ h1 {
 
 
 /* SECTIONS */
-
 .top-section {
   height: 500px;
   width:100%;
   justify-content: space-between;
   align-items: flex-end;
   background-image: url('../foodjpg2.jpg');
-  /* background-image: url("https://c.pxhere.com/photos/7a/9c/dish_restaurant_dining_food_dinner_meal_plate_plate_of_food-1067074.jpg!d"); */
   background-repeat: no-repeat;
   background-size: cover;
   min-height: 713px;
 }
 
-/* SEARCH BAR/BUTTON */
-
+/* SEARCH BAR/BUTTON */ 
 .button-field {
   border:#c0acf2 solid 2px;
   box-shadow: 10 0 0 0px;
@@ -113,10 +110,9 @@ button {
 }
 
 
-
-
 .second-section {
   width: 100%;
+  flex-grow: 1;
   align-items: flex-end;
   background-image: url('../food6.jpg');
   background-repeat: no-repeat;
@@ -141,7 +137,7 @@ button {
   width: 100%;
   justify-content: center;
   padding: 0;
-  
+  border-bottom: transparent solid 3px;
 }
 
 #speciality-items ul li {
@@ -156,19 +152,17 @@ padding-bottom: 5px;
 
 .gallery {
   width: 100%;
-  min-height: 700px;
+  min-height: auto;
   display: flex;
   flex-direction: row;
   justify-content: center;
   flex-wrap: wrap;
-  padding-left: 10%;
-  padding-right: 10%;
-  padding-top: 5%;
-  padding-bottom: 5%;
+
 }
 
 .gallery-image {
   flex-wrap: wrap;
+  flex-grow: 1;
   height: 250px;
   width: 250px;
   margin: 20px;
@@ -229,7 +223,7 @@ padding-bottom: 5px;
 
 video {
   margin: auto;
-  max-width: 100%;
+  width: 100%;
 }
 
 .left-text {
@@ -252,6 +246,7 @@ video {
   max-width: 50%;
 }
 
+/* TESTIMONIAL SECTION */
 #testimonials {
 	color: #333;
 	text-align: center;
@@ -355,7 +350,6 @@ video {
 	border: none;
 	background: #888;		
 }
-
 .list-inline {
   padding: 0;
   display: flex;
