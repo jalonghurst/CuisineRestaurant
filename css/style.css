@@ -69,6 +69,11 @@ p, span, li {
   min-height: 713px;
 }
 
+.welcome {
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
 /* SEARCH BAR/BUTTON */ 
 .button-field {
   border:#c0acf2 solid 2px;
@@ -240,10 +245,10 @@ video {
 }
 
 .left-text {
-  margin-left: 15%;
+  margin-left: 10%;
   display: flex;
   align-self: flex-start;
-  max-width: 55%;
+  max-width: 30%;
 }
 .centered-text {
   display: flex; 
@@ -257,6 +262,7 @@ video {
   display: flex;
   align-self: flex-end;
   max-width: 50%;
+  margin-right: 2%;
 }
 
 /* TESTIMONIAL SECTION */
@@ -391,7 +397,7 @@ video {
   }
  
 
-@media (max-width: 800px) {
+@media (max-width: 650px) {
 
   * {
     justify-content: center;
@@ -415,7 +421,22 @@ video {
     max-width: 70%;
     margin-right: 2%;
   }
- 
+  
+  .left-text {
+    margin-left: 15%;
+    display: flex;
+    align-self: flex-start;
+    max-width: 55%;
+  }
+
+  .welcome {
+    margin-bottom: 0;
+  }
+  
+  p, span, li {
+    font-size: 1rem;
+  }
+  
 
 };
 
