@@ -393,7 +393,9 @@ video {
   .button-field {
     max-width: 60%;  }
 
-    
+  button {
+    width: 35%;
+  }
   }
  
 
