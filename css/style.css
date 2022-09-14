@@ -79,10 +79,9 @@ p, span, li {
   border:#c0acf2 solid 2px;
   box-shadow: 10 0 0 0px;
   color: white;
-  
   text-align: center;
   text-decoration: none;
-  border-radius: 5px;
+  border-radius: 8px;
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
@@ -105,6 +104,7 @@ input {
   height: 100%;
   width: 70%;
   padding: 0 4%;
+  border-radius: 5px;
 }
 
 button {
@@ -128,6 +128,7 @@ button {
   background-repeat: no-repeat;
   background-size: cover; 
   min-height: 713px;
+  padding: 5%;
 }
 
 .about-us {
@@ -137,6 +138,7 @@ button {
 
 .third-section {
   background-color: #f0eff3;
+  padding: 5%;
 }
 
 #speciality-items ul {
@@ -191,12 +193,12 @@ padding-bottom: 5px;
 }
 
 .g-img3 { 
-  background: url(../assets/Foodjpg7.jpg);
+  background: url(../assets/food1.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
 .g-img4 { 
-  background: url(../assets/img11.jpg);
+  background: url(../assets/food3.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -212,7 +214,7 @@ padding-bottom: 5px;
   background-repeat: no-repeat;
   background-size: cover;
 }.g-img7 { 
-  background: url(../assets/img2.jpg);
+  background: url(../assets/food2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -260,8 +262,9 @@ padding-bottom: 5px;
 
 }
 .txt-span {
-  flex: 1;
+
   justify-items: center;
+  display: block;
 }
 .bold {
   font-weight:bold;
@@ -404,7 +407,24 @@ video {
   justify-content: center;
   list-style: none;
 }
-
+footer {
+  padding: 1.5%;
+  background-color: white;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: gray; 
+}
+footer span {
+  font-size: 16px;
+}
+ .footer-nav span, .footer-nav i {
+  padding: 1rem;
+  font-weight: 700;
+}
 @media (max-width: 400px) {
 
     p, span, li {
@@ -426,7 +446,9 @@ video {
     width: 35%;
   }
   
-
+ .txt-card {
+    width: 100%;
+  }
   }
  
 
