@@ -1,3 +1,3 @@
 # CuisineRestaurant
-![Splitview](https://user-images.githubusercontent.com/63796776/185638717-505f5f78-d033-451b-8299-92980de3a38f.png)
-![Screen capture](https://user-images.githubusercontent.com/63796776/185638731-dd354ebb-bd56-4887-b404-2c83e0744ce7.png)
+![splitview1](https://user-images.githubusercontent.com/63796776/190165408-e39ce69d-abd6-4ea0-91a8-545227d04a6d.png)
+![Screen capture](https://user-images.githubusercontent.com/63796776/190165424-3ff937ba-f61e-4e4c-a58e-7c9aba00bdde.png)
